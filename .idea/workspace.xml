@@ -4,20 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b46ebdf-8349-4bf9-bef1-9526e764f191" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/page/ContactDetailsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/page/DashBoardPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/page/JobDetailsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/page/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/JsonReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/contactDetails.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/demo.txt" afterDir="false" />
+    <list default="true" id="7b46ebdf-8349-4bf9-bef1-9526e764f191" name="Changes" comment="create sure task project">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/page/ContactDetailsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page/ContactDetailsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/page/JobDetailsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page/JobDetailsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/contactDetails.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/contactDetails.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +38,7 @@
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.EmployeeManagementTests.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true"
   }
@@ -93,9 +85,20 @@
       <option name="presentableId" value="Default" />
       <updated>1745663701352</updated>
     </task>
+    <task id="LOCAL-00001" summary="create sure task project">
+      <option name="closed" value="true" />
+      <created>1745664751747</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1745664751747</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="create sure task project" />
+    <option name="LAST_COMMIT_MESSAGE" value="create sure task project" />
   </component>
 </project>

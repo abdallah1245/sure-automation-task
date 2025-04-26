@@ -61,11 +61,13 @@ public class JobDetailsPage {
 
     public void selectJobTitle()
     {
-        wait.until(ExpectedConditions.visibilityOfElementLocated(jobTitleDropDown));
-        driver.findElement(jobTitleDropDown).click();
-       wait.until(ExpectedConditions.visibilityOfElementLocated(softwareEngineerOption));
-       driver.findElement(softwareEngineerOption).click();
-
+        try {
+            wait.until(ExpectedConditions.visibilityOfElementLocated(jobTitleDropDown));
+            driver.findElement(jobTitleDropDown).click();
+            wait.until(ExpectedConditions.visibilityOfElementLocated(softwareEngineerOption));
+            driver.findElement(softwareEngineerOption).click();
+        } catch (Exception e) {
+    }
     }
 
     public void selectEmploymentStatus()

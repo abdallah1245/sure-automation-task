@@ -32,6 +32,8 @@ public class ContactDetailsPage {
 
     private By postalCode = By.xpath("//label[text()='Zip/Postal Code']/following::input[1]");
 
+    private By countryDropDownMenu = By.xpath("(//label[text()='Country']/following::div[contains(@class,'oxd-select-text')])[1]");
+
     private By homePhone = By.xpath("//label[text()='Home']/following::input[1]");
     private By mobile = By.xpath("//label[text()='Mobile']/following::input[1]");
     private By workPhone = By.xpath("//label[text()='Work']/following::input[1]");
@@ -60,6 +62,7 @@ public class ContactDetailsPage {
         fillCity(contactData.get("city"));
         fillState(contactData.get("state"));
         fillPostalCode(contactData.get("zip"));
+        fillCountry(contactData.get("country"));
         fillHomePhone(contactData.get("homePhone"));
         fillMobile(contactData.get("mobile"));
         fillWorkPhone(contactData.get("workPhone"));
@@ -94,7 +97,14 @@ public class ContactDetailsPage {
         wait.until(ExpectedConditions.visibilityOfElementLocated(postalCode))
                 .sendKeys(value);
     }
+    public void fillCountry(String value)
+    {
+        wait.until(ExpectedConditions.visibilityOfElementLocated(countryDropDownMenu));
+        driver.findElement(countryDropDownMenu).click();
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[text()='" + value + "']")));
+        driver.findElement(By.xpath("//span[text()='" + value + "']")).click();
 
+    }
     public void fillHomePhone(String value) {
         wait.until(ExpectedConditions.visibilityOfElementLocated(homePhone))
                 .sendKeys(value);
