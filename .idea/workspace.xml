@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b46ebdf-8349-4bf9-bef1-9526e764f191" name="Changes" comment="create sure task project">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="7b46ebdf-8349-4bf9-bef1-9526e764f191" name="Changes" comment="adding project document">
+      <change afterPath="$PROJECT_DIR$/Screenshots/fillContactDetailsUI.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/fillJobDetailsUI.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/utils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/page/ContactDetailsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page/ContactDetailsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/page/JobDetailsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page/JobDetailsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/page/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page/LoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/contactDetails.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/contactDetails.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,12 +95,21 @@
       <option name="project" value="LOCAL" />
       <updated>1745664751747</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="adding project document">
+      <option name="closed" value="true" />
+      <created>1745667549660</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1745667549660</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="create sure task project" />
-    <option name="LAST_COMMIT_MESSAGE" value="create sure task project" />
+    <MESSAGE value="adding project document" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding project document" />
   </component>
 </project>

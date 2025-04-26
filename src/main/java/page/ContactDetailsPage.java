@@ -8,6 +8,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import utils.JsonReader;
 import java.time.Duration;
 import java.util.Map;
+import static utils.utils.generateRandomStreet;
 
 
 public class ContactDetailsPage {
@@ -57,8 +58,8 @@ public class ContactDetailsPage {
     private By jobTab = By.xpath("//a[contains(@class,'orangehrm-tabs-item') and text()='Job']");
 
     public void fillContactForm() throws InterruptedException {
-        fillStreet1(contactData.get("street1"));
-        fillStreet2(contactData.get("street2"));
+        fillStreet1(generateRandomStreet());
+        fillStreet2(generateRandomStreet());
         fillCity(contactData.get("city"));
         fillState(contactData.get("state"));
         fillPostalCode(contactData.get("zip"));
@@ -70,9 +71,7 @@ public class ContactDetailsPage {
         fillOtherEmail(contactData.get("anotherEmail"));
     }
 
-// 👇 Each field interaction is separated below
-
-    public void fillStreet1(String value) throws InterruptedException {
+    public void fillStreet1(String value){
         wait.until(ExpectedConditions.visibilityOfElementLocated(street1InputField));
         driver.findElement(street1InputField).sendKeys(value);
 
