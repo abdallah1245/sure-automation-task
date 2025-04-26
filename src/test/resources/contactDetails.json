@@ -1,0 +1,13 @@
+{
+  "street1": "123 Automation St",
+  "street2": "Suite 45",
+  "city": "Cairo",
+  "state": "Cairo Governorate",
+  "zip": "11211",
+  "country": "Egypt",
+  "homePhone": "0220652682",
+  "mobile": "01123456789",
+  "workPhone": "0220652689",
+  "workEmail": "ayman.qa@demo.com",
+  "anotherEmail": "ayman.qa2@demo.com"
+}
